@@ -8,5 +8,3 @@ add_executable(suave_realsense main.cpp)
 
 # Link librealsense
 target_link_libraries(suave_realsense realsense2)
-
-set(CMAKE_BUILD_TYPE Debug)

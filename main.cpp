@@ -1,8 +1,9 @@
 #include <iostream>
-#include <librealsense2/rs.hpp>
 #include <chrono>
 #include <thread>
 #include <mutex>
+
+#include <librealsense2/rs.hpp>
 
 bool check_imu_is_supported()
 {
