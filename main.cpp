@@ -31,9 +31,9 @@ bool check_imu_is_supported()
     return found_gyro && found_accel;
 }
 
-constexpr bool GYRO = false;
+constexpr bool GYRO = true;
 constexpr bool ACCEL = true;
-constexpr bool DEPTH = false;
+constexpr bool DEPTH = true;
 
 int main(int, char *[]) try
 {
